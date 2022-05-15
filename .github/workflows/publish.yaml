@@ -12,7 +12,7 @@ on:
         default: 'The Octoverse'
 
 jobs:
-  build:
+  trigger_event:
     name: Run Some Scheduled Thing
     runs-on: ubuntu-latest
     steps:
